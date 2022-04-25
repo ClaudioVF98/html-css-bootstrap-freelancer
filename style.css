@@ -1,0 +1,150 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    width: 100%;
+}
+
+/* Header */
+header {
+    height: 50px;
+    background-color: #2c3e50;
+}
+
+.col-6 h4 {
+    color: #ffffff;
+    margin: 0;
+    align-self: center;
+}
+
+.col-6 span {
+    color: #fefeff;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.col-6 .fa-solid {
+    border: 1px #fefeff solid;
+    padding: 3px;
+    align-self: center;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Jumbotron */
+#first_section {
+    background-color: #1abc9c;
+}
+
+.jumbotron img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.jumbotron span {
+    color: #fefeff;
+    margin: 0 10px;
+}
+
+/* Portfolio */
+#second_section img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 7px;
+}
+
+#second_section span {
+    font-size: 40px;
+}
+
+.portfolio .col-4 {
+    padding: 10px;
+}
+
+/* About */
+#third_section {
+    background-color: #1abc9c;
+}
+
+#third_section h1, #third_section span, #third_section p{
+    color: white;
+}
+
+#third_section span {
+    font-size: 40px;
+}
+
+#third_section .btn {
+    max-width: 150px;
+}
+
+/* Contact Me */
+
+#fourth_section span {
+    font-size: 40px;
+}
+
+.m-6 {
+    margin: 5rem 0;
+}
+
+.mybtn {
+    background-color: #1abc9c;
+    color: white;
+}
+
+
+/* Info */
+#fifth_section {
+    background-color: #3a546d;
+}
+
+#fifth_section p {
+    margin-bottom: 8px;
+}
+
+#fifth_section h2, #fifth_section p {
+    color: white;
+}
+
+#fifth_section i {
+
+}
+
+.icon {
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    border: 3px white solid;
+    border-radius: 50%;
+}
+
+.color_green {
+    color: #1abc9c;
+}
+
+/* Footer */
+#sixth_section {
+    background-color: #2c3e50;
+}
+
+#sixth_section .col-12 {
+    height: 50px;
+}
+
+#sixth_section span {
+    color: white;
+}
+/* Media query */
