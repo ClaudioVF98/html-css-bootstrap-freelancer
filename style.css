@@ -16,19 +16,19 @@ header {
     background-color: #2c3e50;
 }
 
-.col-6 h4 {
+.col-lg-6 h4 {
     color: #ffffff;
     margin: 0;
     align-self: center;
 }
 
-.col-6 span {
+.col-lg-6 span {
     color: #fefeff;
     margin: 0 10px;
     align-self: center;
 }
 
-.col-6 .fa-solid {
+.col-lg-6 .fa-solid {
     border: 1px #fefeff solid;
     padding: 3px;
     align-self: center;
@@ -69,7 +69,7 @@ header {
     font-size: 40px;
 }
 
-.portfolio .col-4 {
+.portfolio .col-lg-4 {
     padding: 10px;
 }
 
@@ -140,7 +140,7 @@ header {
     background-color: #2c3e50;
 }
 
-#sixth_section .col-12 {
+#sixth_section .col-lg-12 {
     height: 50px;
 }
 
@@ -148,3 +148,12 @@ header {
     color: white;
 }
 /* Media query */
+/* Mobile */
+@media only screen and (max-width: 576px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
