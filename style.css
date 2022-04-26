@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */
 header {
     height: 50px;
@@ -22,7 +26,7 @@ header {
     align-self: center;
 }
 
-.col-lg-6 span {
+.col-lg-6 a {
     color: #fefeff;
     margin: 0 10px;
     align-self: center;
@@ -55,6 +59,10 @@ header {
 .jumbotron span {
     color: #fefeff;
     margin: 0 10px;
+}
+
+#first_section a {
+    color: #fefeff;
 }
 
 /* Portfolio */
@@ -92,11 +100,11 @@ header {
 
 /* Contact Me */
 
-#fourth_section span {
-    font-size: 40px;
+#fourth_section a {
+    color: black;
 }
 
-.m-6 {
+.m-10 {
     margin: 5rem 0;
 }
 
@@ -105,6 +113,9 @@ header {
     color: white;
 }
 
+hr {
+    height: 2px;
+}
 
 /* Info */
 #fifth_section {
@@ -157,3 +168,8 @@ header {
     .mobile {
         display: block;
     }
+}
+
+a:hover {
+    cursor: pointer;
+}
